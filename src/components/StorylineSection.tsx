@@ -18,10 +18,10 @@ const StorylineSection = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-16 items-center">
           <div className="space-y-4">
             <div className="font-mono-tech text-accent text-xs tracking-widest mb-2">// INCIDENT REPORT — 02:07 AM</div>
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="text-foreground leading-relaxed">
               At <span className="text-accent font-semibold">2:07 a.m.</span>, CityCare Hospital was hit by a coordinated ransomware attack.
             </p>
-            <ul className="space-y-2 text-muted-foreground">
+            <ul className="space-y-2 text-foreground/90">
               <li className="flex items-center gap-3">
                 <Lock className="w-4 h-4 text-accent shrink-0" />
                 Patient records encrypted.
@@ -35,7 +35,7 @@ const StorylineSection = () => {
                 Administrative access seized.
               </li>
             </ul>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed">
               It started with a seemingly normal email containing "important information" — but it was a disguise. The attachment contained ransomware that took over the hospital system.
             </p>
           </div>
@@ -51,13 +51,13 @@ const StorylineSection = () => {
           </div>
           <div className="order-1 md:order-2 space-y-4">
             <div className="font-mono-tech text-primary text-xs tracking-widest mb-2">// EMERGENCY ALERT</div>
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="text-foreground leading-relaxed">
               At the same time, a young accident victim arrives in <span className="text-accent font-semibold">critical condition</span>.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed">
               Doctors require digital access before proceeding with surgery. But the system is down.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed">
               The attacker copied the hospital database and sent proof — <span className="text-primary">three high-profile patient records</span>.
             </p>
           </div>
@@ -71,8 +71,8 @@ const StorylineSection = () => {
               <Timer className="w-6 h-6 text-accent" />
               <span className="font-display text-xl text-accent text-glow-red">A two-hour countdown has begun.</span>
             </div>
-            <p className="text-muted-foreground leading-relaxed mb-2">If time expires:</p>
-            <ul className="space-y-2 text-muted-foreground">
+            <p className="text-foreground/90 leading-relaxed mb-2">If time expires:</p>
+            <ul className="space-y-2 text-foreground/90">
               <li className="flex items-center gap-3">
                 <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0" />
                 Sensitive data will leak
@@ -106,7 +106,7 @@ const StorylineSection = () => {
             ].map((mission, i) => (
               <div key={i} className="flex items-center gap-3 text-left p-3 rounded-md bg-muted/30">
                 <Target className="w-4 h-4 text-primary shrink-0" />
-                <span className="text-foreground/80 text-sm">{mission}</span>
+                <span className="text-foreground text-sm">{mission}</span>
               </div>
             ))}
           </div>

@@ -45,13 +45,19 @@ const HeroSection = () => {
           <span className="font-mono-tech text-lg">120 Minutes</span>
         </div>
 
+        <div className="mb-4">
+          <p className="font-mono-tech text-foreground text-sm mb-1">
+            📅 March 16, 2026
+          </p>
+        </div>
+
         <a
           href="#storyline"
           className="inline-block px-8 py-4 rounded-lg font-display text-sm tracking-widest uppercase
             bg-transparent neon-border text-primary hover:bg-primary/10 transition-all duration-300
             hover:shadow-[0_0_30px_hsl(210_100%_55%/0.3)]"
         >
-          Now to Experience It
+          Pay Now to Experience It
         </a>
       </div>
 

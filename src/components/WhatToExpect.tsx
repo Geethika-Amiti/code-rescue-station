@@ -25,7 +25,7 @@ const WhatToExpect = () => {
               className="flex items-start gap-4 p-5 glass-card hover:bg-primary/5 transition-colors duration-300"
             >
               <Icon className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-              <span className="text-foreground/80 text-sm">{text}</span>
+              <span className="text-foreground text-sm">{text}</span>
             </div>
           ))}
         </div>

@@ -3,7 +3,7 @@ import StorylineSection from "@/components/StorylineSection";
 import MissionDetails from "@/components/MissionDetails";
 import WhatToExpect from "@/components/WhatToExpect";
 import CautionSection from "@/components/CautionSection";
-import UsefulLinks from "@/components/UsefulLinks";
+import EscapeRoomExplainer from "@/components/EscapeRoomExplainer";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
       <MissionDetails />
       <WhatToExpect />
       <CautionSection />
-      <UsefulLinks />
+      <EscapeRoomExplainer />
       <Footer />
     </div>
   );
