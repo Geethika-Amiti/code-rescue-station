@@ -25,7 +25,7 @@ const CautionSection = () => {
                 <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                   <Icon className="w-4 h-4 text-accent" />
                 </div>
-                <span className="text-foreground/80 font-mono-tech text-sm">{text}</span>
+                <span className="text-foreground font-mono-tech text-sm">{text}</span>
               </div>
             ))}
           </div>
